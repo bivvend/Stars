@@ -175,7 +175,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 544323b25a430a94983ecb4cfa874b9d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -225,6 +225,7 @@ GameObject:
   m_Component:
   - component: {fileID: 264478614}
   - component: {fileID: 264478613}
+  - component: {fileID: 264478615}
   m_Layer: 0
   m_Name: Earth
   m_TagString: Untagged
@@ -269,7 +270,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8af57e43b5767104580271d5d970c4bb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -295,6 +296,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &264478615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 264478612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f943e91ff23dfb47864279ab90fa233, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Angle: 0
+  SpinRate: 0.1
 --- !u!1 &292267063
 GameObject:
   m_ObjectHideFlags: 0
@@ -421,6 +436,7 @@ MonoBehaviour:
   Sensitivity: 1
   ZMin: 2
   ZMax: 10000
+  MoveStep: 0
 --- !u!1 &1242615411
 GameObject:
   m_ObjectHideFlags: 0
@@ -480,6 +496,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1537532234}
   - component: {fileID: 1537532233}
+  - component: {fileID: 1537532235}
   m_Layer: 0
   m_Name: Pluto
   m_TagString: Untagged
@@ -524,7 +541,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 40c6b12207a2f7b4d89cebd87c303801, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -550,6 +567,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1537532235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537532232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f943e91ff23dfb47864279ab90fa233, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Angle: 0
+  SpinRate: 0.1
 --- !u!1 &1897763750
 GameObject:
   m_ObjectHideFlags: 0
@@ -560,6 +591,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1897763752}
   - component: {fileID: 1897763751}
+  - component: {fileID: 1897763753}
   m_Layer: 0
   m_Name: Mars
   m_TagString: Untagged
@@ -604,7 +636,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 3493ad023d68bf2438bf5a6d6fa588a1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -630,6 +662,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1897763753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1897763750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f943e91ff23dfb47864279ab90fa233, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Angle: 0
+  SpinRate: 0.1
 --- !u!1 &1983612047
 GameObject:
   m_ObjectHideFlags: 0
