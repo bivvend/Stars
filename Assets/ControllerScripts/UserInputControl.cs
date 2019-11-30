@@ -18,7 +18,7 @@ public class UserInputControl : MonoBehaviour
         Sensitivity = 100.0f;
         ZMin = -10000.0f;
         ZMax = 2;
-        MoveStep = 10;
+        MoveStep = 5;
     }
 
     // Update is called once per frame
@@ -42,22 +42,22 @@ public class UserInputControl : MonoBehaviour
 
             if (Input.GetKey("up"))
             {
-                cam.transform.Translate(0.0f, MoveStep, 0.0f);
+                cam.transform.Translate(0.0f, -1 * MoveStep, 0.0f);
             }
 
             if (Input.GetKey("down"))
             {
-                cam.transform.Translate(0.0f, -1 * MoveStep, 0.0f);
+                cam.transform.Translate(0.0f, MoveStep, 0.0f);
             }
 
             if (Input.GetKey("left"))
             {
-                cam.transform.Translate(MoveStep, 0.0f, 0.0f);
+                cam.transform.Translate(-1 * MoveStep, 0.0f, 0.0f);
             }
 
             if (Input.GetKey("right"))
             {
-                cam.transform.Translate(-1 * MoveStep, 0.0f, 0.0f);
+                cam.transform.Translate(MoveStep, 0.0f, 0.0f);
             }
 
                 
