@@ -679,6 +679,16 @@ MonoBehaviour:
   AsteroidBelt: []
   Asteroid: {fileID: 1891821870839789975, guid: 022c3e327d8ad0b4ab80cb29e4d70c90,
     type: 3}
+  Asteroid1: {fileID: 7844288526639437870, guid: a9ad7c6373242bb4188dbe7049e63686,
+    type: 3}
+  Asteroid2: {fileID: 3776503529350750917, guid: 9b5a0905ca520e94fadcde7a29aca740,
+    type: 3}
+  Asteroid3: {fileID: 1707855694897669016, guid: cfc447ef298bccc4196476c90ea2b70c,
+    type: 3}
+  Asteroid4: {fileID: 1525217381942692450, guid: f1874ce149602dc4fb73f9f87b7f04c5,
+    type: 3}
+  Asteroid5: {fileID: 1251319789534140293, guid: efada83155bafd246811cc568006672d,
+    type: 3}
 --- !u!4 &1242615413
 Transform:
   m_ObjectHideFlags: 0
@@ -1031,10 +1041,10 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
-    y: 0
-    width: 10
-    height: 10
+    x: -1000
+    y: -1000
+    width: 2000
+    height: 2000
   near clip plane: 0.3
   far clip plane: 10000
   field of view: 90
