@@ -667,16 +667,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NumShips: 1
   PlanetNames: []
-  EarthDist: 0
-  MoonEarthDistance: 0
-  MarsDistance: 0
-  PlutoDistance: 0
   BoardSizeX: 0
   BoardSizeY: 0
   PlanetZ: 0
+  MinAsteroidDistance: 0
+  MaxAsteroidDistance: 0
   Earth: {fileID: 0}
   Mars: {fileID: 0}
   Pluto: {fileID: 0}
+  NumAsteroids: 0
+  AsteroidBelt: []
+  Asteroid: {fileID: 1891821870839789975, guid: 022c3e327d8ad0b4ab80cb29e4d70c90,
+    type: 3}
 --- !u!4 &1242615413
 Transform:
   m_ObjectHideFlags: 0
